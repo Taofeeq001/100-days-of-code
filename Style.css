@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 15px;
+    align-items: center;
+}
+.logo, .log{
+    display: flex;
+}
+.nav-link a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    
+}
+.nav-link a:hover{
+    background-color: yellow;
+    border-radius: 15PX;
+    color:  black;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./map.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
+.info-des{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+.info-area{
+    display: flex;
+    gap: 40px;
+    width: 70%;
+    margin-bottom: 4rem;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.inp input{
+    width: 100%;
+    padding: 25px;
+    background-color: lightyellow;
+    border: 1px solid black;
+
+}
+button{
+    padding: 15px;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    border-radius: 10px;
+}
